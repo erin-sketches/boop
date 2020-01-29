@@ -2,7 +2,8 @@
 <html lang="en">
   <title>htm Demo</title>
   <script type="module">
-    import { html, Component, render } from 'https://unpkg.com/htm/preact/standalone.module.js';
+    import { html, Component, render } from './src/preact.module.js';
+		import * as THREE from './src/three.module.js';
 
     class App extends Component {
       addTodo() {
